@@ -1,0 +1,49 @@
+.cookiehub-declaration
+{
+  margin: 20px 0;
+}
+
+.cookiehub-declaration p
+{
+  font-size: 14px;
+}
+
+.cookiehub-declaration a
+{
+  color: #333;
+}
+
+.cookiehub-categories
+{
+  padding: 20px 0;
+}
+
+.cookiehub-category table
+{
+  background: #eee;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.cookiehub-category table th, .cookiehub-category td
+{
+  padding: 4px 10px;
+}
+
+.cookiehub-category td:last-child
+{
+  text-align: right;
+}
+
+.cookiehub-category td span
+{
+  background: #ccc;
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.cookiehub-category td[colspan] p
+{
+  background: #fff;
+  padding: 10px 20px;
+}

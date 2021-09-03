@@ -1,0 +1,50 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for OUM Cookiehub module.
+ *
+ * @DCG
+ * This file is no longer required in Drupal 8.
+ * @see https://www.drupal.org/node/2217931
+ */
+
+ /**
+  * Implements hook_page_attachments().
+  */
+ function oum_cookiehub_page_attachments(array &$attachments) {
+  $cookiehub_settings = \Drupal::config('oum_cookiehub.settings');
+  if ($cookiehub_settings) {
+
+    $attachments['#attached']['html_head'][] = [
+      [
+        '#type' => 'html_tag',
+        '#tag' => 'script',
+        '#value' => '',
+        '#attributes' => [
+          'src' =>  $cookiehub_settings->get('dev_mode') ? $cookiehub_settings->get('dev_url') : $cookiehub_settings->get('url')
+        ],
+        '#weight' => -1000,
+      ],
+      'cookiehub'
+    ];
+
+    $script = 'document.addEventListener("DOMContentLoaded", function(event) {
+        var cpm = {};
+        window.cookiehub.load(cpm);
+      });';
+
+    $attachments['#attached']['html_head'][] = [
+      [
+        '#type' => 'html_tag',
+        '#tag' => 'script',
+        '#value' => $script,
+        '#attributes' => [
+          'type' =>  'text/javascript'
+        ],
+        '#weight' => -999,
+      ],
+      'cookiehub-script'
+    ];
+  }
+}

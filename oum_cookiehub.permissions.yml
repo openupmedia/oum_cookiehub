@@ -1,0 +1,4 @@
+administer oum_cookiehub configuration:
+  title: 'Administer oum_cookiehub configuration'
+  description: 'Optional description.'
+  restrict access: true

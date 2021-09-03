@@ -1,0 +1,4 @@
+cookiehub:
+  css:
+    component:
+      css/cookiehub.css: {}

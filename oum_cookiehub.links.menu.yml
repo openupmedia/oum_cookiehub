@@ -1,0 +1,6 @@
+oum_cookiehub.settings_form:
+  title: Cookiehub
+  description: Configure OUM Cookiehub.
+  parent: system.admin_config_services
+  route_name: oum_cookiehub.settings_form
+  weight: 10

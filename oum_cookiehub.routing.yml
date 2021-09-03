@@ -1,0 +1,7 @@
+oum_cookiehub.settings_form:
+  path: '/admin/config/services/cookiehub'
+  defaults:
+    _title: 'Cookiehub settings'
+    _form: 'Drupal\oum_cookiehub\Form\SettingsForm'
+  requirements:
+    _permission: 'administer cookiehub configuration'

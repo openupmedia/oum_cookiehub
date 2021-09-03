@@ -1,0 +1,6 @@
+name: OUM Cookiehub
+type: module
+description: The description.
+package: OUM
+core: 8.x
+core_version_requirement: ^8 || ^9

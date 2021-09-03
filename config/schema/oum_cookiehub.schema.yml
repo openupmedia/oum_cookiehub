@@ -1,0 +1,7 @@
+field.value.oum_cookiehub_cookie_declaration:
+  type: mapping
+  label: Default value
+  mapping:
+    value:
+      type: label
+      label: Value
