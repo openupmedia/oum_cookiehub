@@ -1,49 +1,51 @@
-.cookiehub-declaration
-{
-  margin: 20px 0;
+.cookiehub-declaration,
+.ch2-cookie-declaration {
+	margin: 20px 0;
 }
 
-.cookiehub-declaration p
-{
-  font-size: 14px;
+.cookiehub-declaration p,
+.ch2-cookiehub-declaration p {
+	font-size: 14px;
 }
 
-.cookiehub-declaration a
-{
-  color: #333;
+.cookiehub-declaration a,
+.ch2-cookiehub-declaration a {
+	color: #333;
 }
 
-.cookiehub-categories
-{
-  padding: 20px 0;
+.cookiehub-categories,
+.ch2-settings-options {
+	padding: 20px 0;
 }
 
-.cookiehub-category table
-{
-  background: #eee;
-  margin-bottom: 20px;
-  width: 100%;
+.cookiehub-category table,
+.ch2-declaration-category table {
+	background: #eee;
+	margin-bottom: 20px;
+	width: 100%;
 }
 
-.cookiehub-category table th, .cookiehub-category td
-{
-  padding: 4px 10px;
+.cookiehub-category table th,
+.cookiehub-category td,
+.ch2-declaration-category table th,
+.ch2-declaration-category td {
+	padding: 4px 10px;
 }
 
-.cookiehub-category td:last-child
-{
-  text-align: right;
+.cookiehub-category td:last-child,
+.ch2-declaration-category td:last-child {
+	text-align: right;
 }
 
-.cookiehub-category td span
-{
-  background: #ccc;
-  padding: 4px 8px;
-  font-size: 12px;
+.cookiehub-category td span,
+.ch2-declaration-category td span {
+	background: #ccc;
+	padding: 4px 8px;
+	font-size: 12px;
 }
 
-.cookiehub-category td[colspan] p
-{
-  background: #fff;
-  padding: 10px 20px;
+.cookiehub-category td[colspan] p,
+.ch2-declaration-category td[colspan] p {
+	background: #fff;
+	padding: 10px 20px;
 }
